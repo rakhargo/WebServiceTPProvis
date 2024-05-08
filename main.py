@@ -20,14 +20,17 @@ class Produk(BaseModel):
     price:int
     condition:str
     publish_date:str
+    image:str
 
 # Data dummy Produk
 produk_data = {
     "data":
     [
-        {"id": "1", "name": "Rexus Daxa Asteria V2", "category": "Controller","location":"Bandung", "price":300000, "condition":"Very Good Condition", "publish_date":"2024-05-08"},
+        {"id": "1", "name": "Rexus Daxa Asteria V2", "category": "Controller","location":"Bandung", "price":300000, "condition":"Very Good Condition", "publish_date":"2024-05-08", "image":"1.jpeg"},
+        {"id": "2", "name": "Vortexseries Oni R1", "category": "Mouse","location":"Bekasi", "price":250000, "condition":"Very Good Condition", "publish_date":"2024-05-08", "image":"2.jpeg"},
     ],
-    "message":"success", "error":"false"
+    "message":"success", 
+    "error":"false"
 }
 
 @app.get("/daftar_produk")
