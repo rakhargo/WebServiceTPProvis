@@ -25,7 +25,7 @@ class Produk(BaseModel):
 produk_data = {
     "data":
     [
-        {"id": "1", "name": "Rexus Daxa Asteria V2", "type": "Controller","location":"Bandung", "price":300000, "condition":"Very Good Condition", "publish_date":"2024-05-08"},
+        {"id": "1", "name": "Rexus Daxa Asteria V2", "category": "Controller","location":"Bandung", "price":300000, "condition":"Very Good Condition", "publish_date":"2024-05-08"},
     ],
     "message":"success", "error":"false"
 }
